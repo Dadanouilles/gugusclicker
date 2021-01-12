@@ -1,0 +1,85 @@
+.clique {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+
+    position: absolute;
+    left: 200px;
+    top: 150px;
+
+  }
+
+.clique:hover {background-color: #3e8e41}
+  
+.clique:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+
+
+.clique2 {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+
+    position: absolute;
+    left: 400px;
+    top: 150px;
+
+  }
+  
+.clique2:hover {background-color: #3e8e41}
+
+.clique2:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+
+
+
+
+.disable {
+	display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+
+    position: absolute;
+    left: 400px;
+	  top: 150px;
+	
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.disable:hover {background-color: #3e8e41}
